@@ -1,9 +1,9 @@
-redkiwi-nl/localconfig
+redkiwi-nl/local-config
 ======================
 
 
 
-[![Build Status](https://travis-ci.org/redkiwi-nl/localconfig.svg?branch=master)](https://travis-ci.org/redkiwi-nl/localconfig)
+[![Build Status](https://travis-ci.org/Redkiwi-NL/local-config.svg?branch=master)](https://travis-ci.org/redkiwi-nl/localconfig)
 
 Quick links: [Installing](#installing) | [Contributing](#contributing)
 
