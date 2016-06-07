@@ -21,3 +21,5 @@ cache:
 env:
   global:
     - WP_CLI_BIN_DIR=/tmp/wp-cli-phar
+
+script: echo "no script"
