@@ -49,6 +49,19 @@ class Core extends \WP_CLI_Command {
     }
 
     /**
+     * Shows the help for the create command
+     * 
+     * @param $args
+     * @param $assoc_args
+     *
+     * @when before_wp_load
+     */
+    public function help( $args, $assoc_args ) {
+        $this->assignArgs( $args, $assoc_args );
+        \WP_CLI::log('wp local-config create');
+    }
+
+    /**
      * Creates a local config
      *
      * ## OPTIONS
@@ -67,6 +80,9 @@ class Core extends \WP_CLI_Command {
      *     wp local-config create
      *
      * @when before_wp_load
+     *
+     * @param $args
+     * @param $assoc_args
      */
     public function create( $args, $assoc_args ) {
         $this->assignArgs( $args, $assoc_args );
