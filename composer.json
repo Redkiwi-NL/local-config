@@ -1,8 +1,21 @@
 {
     "name": "redkiwi-nl/localconfig",
-    "description": "",
+    "description": "Creates a local config for any WordPress installation, based on a few questions you get asked.",
     "license": "MIT",
-    "authors": [],
+    "authors": [
+        {
+            "name": "Jeroen Ketelaar",
+            "email": "jeroen@ketelaar.me",
+            "homepage": "http://jketelaar.nl",
+            "role": "Developer"
+        },
+        {
+            "name": "Redkiwi",
+            "email": "info@redkiwi.nl",
+            "homepage": "https://www.redkiwi.nl",
+            "role": "Company"
+        }
+    ],
     "minimum-stability": "dev",
     "autoload": {
         "files": [ "command.php" ],
