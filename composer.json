@@ -1,6 +1,7 @@
 {
     "name": "redkiwi-nl/localconfig",
     "description": "Creates a local config for any WordPress installation, based on a few questions you get asked.",
+    "type": "wp-cli-package",
     "license": "MIT",
     "authors": [
         {
